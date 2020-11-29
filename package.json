@@ -6,7 +6,7 @@
   "scripts": {
     "test": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "start:dev": "webpack-dev-server --mode development --open"
   },
   "author": "Fernando Cutire",
